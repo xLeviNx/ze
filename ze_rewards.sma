@@ -12,7 +12,7 @@ new Array:aUsedSteams, bool:g_bCoins[33], bool:g_bXP[33]
 
 public plugin_init()
 {
-	register_plugin("Get Escape Coins", "1.0", "Raheem")
+	register_plugin("Get Escape Coins", "1.0", "LevHost Gaming")
 
 	register_clcmd("say /free", "Get_Coins_Cmd_Handler");
 	register_clcmd("say_team /free", "Get_Coins_Cmd_Handler");
